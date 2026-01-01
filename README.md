@@ -61,6 +61,8 @@ Nous pourrions utiliser GPT3.5 ou GPT4 mais pour des raisons de coût (il faut u
 - A partir de cet exercice, nous allons utiliser le serveur d'inférence `Olama`que nous allons installer dans Google Colab. Pour ce faire, exécuter les commandes suivantes
 
 ```
+!pip install colab-xterm
+%load_ext colabxterm
 %xterm
 ```
 
@@ -97,6 +99,17 @@ https://python.langchain.com/docs/integrations/chat/ollama/
 
 ## Etape 3 - IHM
 
-**Exercice 7 :IHM**
+**Exercice 7 : IHM**
 
-- A l'aide de [gradio](https://www.gradio.app/guides/quickstart), mettre en place une IHM permettant d'interroger le chatbot.
+- A l'aide de [gradio](https://www.gradio.app/guides/quickstart), mettre en place une IHM permettant d'interroger le chatbot créé précédemment.
+
+## Etape 4. - Evaluation
+
+- Suivre le cours [https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) 
+- Suivre et exécuter le notebook https://colab.research.google.com/drive/1Wzj1JQIPut78CPkcr5tjY9f98cjPa40Z#scrollTo=AI5T9icqfyuX sans faire les exercice de la fin du notebook.
+
+**Exercice 8 : evaluation**
+
+- Faire évoluer le notebook développé dans le cours [https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) pour y ajouter plusieurs analystes (cf. "Génération des analystes: Human-In-The-Loop")
+- (optionnel) Intégrer l'humain dans la boucle (HITL) dans le processus d'évaluation.
+- (optionnel) A l'aide de gradio, mettre en place une IHM permettant à l'humain d'interagir dans le processus
