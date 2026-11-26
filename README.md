@@ -84,4 +84,3 @@ Le juge est le même modèle que les agents : relisez une partie de ses verdicts
 | Équipe d'agents (fonctionne, rôles nets, code lisible) | 5 |
 | Comparaisons (référence, variante, ablation), chiffrées | 5 |
 | Analyse des pannes (traces, taxonomie) | 4 |
-| Rapport et soutenance | 3 |
